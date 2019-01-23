@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [ 
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage" // this will include @babel/polyfill automatically. See https://babeljs.io/docs/en/babel-polyfill#docsNav
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}
